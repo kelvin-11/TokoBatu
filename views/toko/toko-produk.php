@@ -29,7 +29,7 @@ use yii\grid\GridView;
                     ]) ?>
                 </div>
                 <div class="col-lg-8 col-md-6 col-sm-12 col-12 profile-section">
-                    <div class="card bg-warning">
+                    <div class="card bg-warning mt-2">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-lg-9 mt-2">

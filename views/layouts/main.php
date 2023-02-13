@@ -128,10 +128,11 @@ AppAsset::register($this);
                     </a>
                     <h6 class="fw-bold">Sosial Media Kami</h6>
                     <div class="footer__widget__social mt-3">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                        <a href="#" style="border-color: green;"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                        <a href="#" style="border-color: green;"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                        <a href="#" style="border-color: green;"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                        <a href="#" style="border-color: green;"><i class="fa-brands fa-pinterest fa-lg"></i></a>
+                        <a href="#" style="border-color: green;"><i class="fa-brands fa-whatsapp fa-lg"></i></a>
                     </div>
                 </div>
             </div>
@@ -143,7 +144,7 @@ AppAsset::register($this);
                         <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             Copyright &copy;<script>
                                 document.write(new Date().getFullYear());
-                            </script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            </script> Toko Batu | Kota Batu <i class="fa fa-heart" aria-hidden="true"></i> by <a href="#" target="_blank">Kelvin R.S</a>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                     </div>
                     <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>

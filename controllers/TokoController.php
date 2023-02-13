@@ -52,7 +52,7 @@ class TokoController extends Controller
         $identy = Yii::$app->user->identity;
         if ($identy->role_id == 3) {
             Yii::$app->session->setFlash('error', 'Anda telah daftar menjadi penjual');
-            return $this->goHome();
+            return $this->goBack();
         }
 
         $data = User::find()->where(Yii::$app->user->identity->id)->andWhere(['role_id' => 1])->andWhere(['email' => Yii::$app->user->identity->email])->one();
@@ -176,7 +176,7 @@ Terimakasih telah menggunakan layanan Toko Batu";
 
         $searchModel  = new ProdukSayaSearch();
         $dataProvider = $searchModel->search($_GET);
-        $dataProvider->pagination = ['pageSize' => 4];
+        $dataProvider->pagination = ['pageSize' => 3];
 
         $data = Toko::find()->where(['id_user' => yii::$app->user->identity->id])->one();
 
